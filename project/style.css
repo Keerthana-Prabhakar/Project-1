@@ -1,4 +1,187 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-team {
+    border: solid blue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    background-image: url(bgk-header.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.section-team h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-team p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.dashed-line {
+    color: white;
+    width: 5%;
+    height: 1px;
+    background: white;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+.persons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.persons .person {
+    text-align:right;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 20px;
+    margin: 45px;
+}
+
+.persons .person img {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 40px;
+    padding: 0px;
+
+}
+
+.persons span {
+    color: #a9a9a9;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.hiring-button {
+display: block;
+    width: 180px;
+    margin: 20px auto;
+    padding: 12px;
+    cursor: pointer;
+    color: rgb(24, 168, 168);
+    border-color: rgb(45, 193, 198);
+    background-color: transparent;
+}
+
+.section-news {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 40px;
+}
+
+.section-news .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start
+    margin-left: 20px;
+}
+
+.news-form {
+    width: 50%;
+}
+
+.section-news h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.news-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-form #message {
+    padding-bottom: 200px;
+}
+
+.news-form label {
+    margin-bottom: 10px;
+}
+
+.news-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.news-form button {
+    display: block;
+    width: 150px;
+    margin: 5 auto;
+    padding: 10px;
+    border-color:rgb(45, 193, 198);
+    color: rgb(45, 193, 198);
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.section-clients {
+    background-color: white;
+    padding: 20px;
+    padding-left: 5px;
+    text-align:center;
+    height: 100%;
+    width: 70%;
+}
+
+.section-clients h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-logos .logo {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.clients-logos img {
+    width: 40%;
+    height: 50%;
+}
+
 head{
     display: flex;
     margin: 0px;
